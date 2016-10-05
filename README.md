@@ -1,7 +1,9 @@
 # ExamplePlugins
 플러그인 예시를 다룹니다
 ## 목록
-> • 01. FirstPlugin #1 -Command </spawn> 
+> • 01. FirstPlugin #1 -Command 
+>> /spawn 명령어를 통한 스폰이동
+>> /talk '<to|quit>' '<name>'명령어를 통한 1대1채팅
 
 > • 02. FirstPlugin #2 -EventHandler  
 
