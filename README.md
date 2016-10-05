@@ -5,9 +5,9 @@
 
 > • 02. FirstPlugin #2 -EventHandler  
 
->> <PlayerJoinEvent>-이름에 공백문자 포함여부 확인 후 처리 
+>> (PlayerJoinEvent)-{이름에 공백문자 포함여부 확인 후 처리}
 
->> <PlayerChatEvent>-같은 월드내 플레이어들만 들을수있도록 처리 
+>> (PlayerChatEvent)-{같은 월드내 플레이어들만 들을수있도록 처리}
 
 > • 03. FirstPlugin #3 - Config 
 
