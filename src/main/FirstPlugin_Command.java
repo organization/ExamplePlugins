@@ -3,6 +3,7 @@ package main;
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.plugin.PluginBase;
+import cn.nukkit.Player;
 
 public class FirstPlugin_Command extends PluginBase{
   
