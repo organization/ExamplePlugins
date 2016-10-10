@@ -16,7 +16,7 @@ public class FirstPlugin_Command extends PluginBase{
   @Override
   public boolean onCommand(CommandSender sender, Command command, String label, String[] args){
     try{
-      Position spawn = ((Player) sender).teleport(((Player) sender).getSpawn());
+      ((Player) sender).teleport(((Player) sender).getSpawn());
       return true;
     } catch(ClassCastException e){
       //이러한 경우에는 콘솔에서 친거인지 확인하세요.
