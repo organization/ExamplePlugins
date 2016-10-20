@@ -20,6 +20,12 @@ public class FirstPlugin_Command extends PluginBase{
       return true;
     } catch(ClassCastException e){
       //이러한 경우에는 콘솔에서 친거인지 확인하세요.
+      /**
+      if(sender.isPlayer()){
+        ((Player)sender).teleport(this.getServer().getSpawnLocation());
+        return true;
+      }else return false;
+      */
       return false;
     }
     return true;
